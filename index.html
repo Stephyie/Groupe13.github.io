@@ -1,70 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>Website</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"> 
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {margin:0;}
 
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
 
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-}
-
-.main {
-  padding: 16px;
-  margin-top: 30px;
-  height: 1500px; /* Used in this example to enable scrolling */
-}
-</style>
-</head>
-<body>
-
-<div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-</div>
-
-<style>
-* {
-    box-sizing: border-box;
-}
-
-body {
-  margin: auto;
-}
-
+<style type="text/css">
 .jumbotron{
 	margin-top: 10 px;
-	background-image:url(https://images.unsplash.com/photo-1462446892934-2c17979efefd?ixlib=rb-0.3.5&s=1583644a02f0d9df4d7e858e0ba4c3f3&auto=format&fit=crop&w=1050&q=80);
+	background-image:url(jumb.jpg);
 	background-attachment: fixed;
 	background-position: center;	
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
+}	
+</style>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">UR'EVENT</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">L'AGENCE<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">NOS OFFRES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">NOS DERNIERS EVENEMENTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">CONTACT</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
+</head>
+
+	<div class="container">
+		<div class="jumbotron">
+			<h1 class="text-center">CREATIVE. UNIQUE. RÉACTIVE !</h1>
+			<p class="text-center">Faites de votre rêve une réalité, profitez de votre journée sans stress</p>
+			<p class="text-center"><button type="button" class="btn btn-light">Voir nos offres</button></p>
+	</div>
+</div>
+
+<p class="text-center">Nous organisons tout type d'évenement dans un délai très court et à des prix attractifs.</p>
+
+<div class="container">
+<div class="card-deck">
 
 /* Create three equal columns that floats next to each other */
 .column {
@@ -101,34 +91,34 @@ body {
     padding: 10px;
     text-align: center;
 }
-</style>
-</head>
-<body>
 
-  
+  <div class="card">
+  	<div class="card-body"> <img class="card-img-top" src="faq.jpg" class="img-fluid" alt="faq image"/>
 
-
-<div class="row">
-  <div class="column side">
-    <h2>Side</h2>
-    <p>test</p>
+      <h5 class="card-title">FAQ</h5>
+      <p>Frequently Asked Questions</p>
+      <p class="text-center"><button type="button" class="btn btn-light">En savoir plus</button></p>
   </div>
-  <div class="column middle">
-    <h2>Middle</h2>
-    <p> test </p>
-    <p>test</p>
+    </div>
   </div>
-  <div class="column side">
-    <h2>Side</h2>
-    <p>test</p>
+  <div class="card"> 
+<div class="card-body"> <img class="card-img-top" src="réseau.jpg" class="img-fluid" alt="reseau image"/>
+   
+  <h5 class="card-title">Notre réseau</h5>
+      <p>Notre agence a beaucoup de contact</p>
+       <p class="text-center"><button type="button" class="btn btn-light">En savoir plus</button></p>
+    </div>
+  </div>
+  <div class="card">
+  <div class="card-body"> <img class="card-img-top" src="references.jpg" class="img-fluid" alt="reference image"/>
+    <div class="card-body">
+      <h5 class="card-title">Nos références</h5>
+      <p>les agences avec lesquelles nous sommes affiliées</p>
+       <p class="text-center"><button type="button" class="btn btn-light">En savoir plus</button></p>
+    </div>
   </div>
 </div>
 
-<div class="footer">
-  <p>Made with ❤️ in UPEC</p>
 </div>
 
-
-  
-</body>
 </html>

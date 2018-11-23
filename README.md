@@ -1,1 +1,1 @@
-Please find our website [here](https://stephyie.github.io/Groupe13.github.io/).
+Retrouvez notre site internet [ici](https://stephyie.github.io/Groupe13.github.io/).
